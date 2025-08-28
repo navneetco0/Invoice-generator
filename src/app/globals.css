@@ -24,3 +24,33 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media print {
+  @page {
+    size: A4;
+    /* or letter */
+    margin: 0;
+    /* no header/footer space */
+  }
+
+  body * {
+    visibility: hidden;
+    margin: 0;
+    -webkit-print-color-adjust: exact;
+    /* Safari/Chrome */
+    print-color-adjust: exact;
+    /* Modern spec */
+  }
+
+  .print-section,
+  .print-section * {
+    visibility: visible;
+  }
+
+  .print-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
