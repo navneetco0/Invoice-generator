@@ -33,7 +33,7 @@ Allow: /favicon.ico
 Allow: /_next/static/
 
 # Sitemap location
-Sitemap: https://invoice.vercel.app/sitemap.xml
+Sitemap: https://invoice-generator-pi-two.vercel.app/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

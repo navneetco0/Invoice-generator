@@ -6,7 +6,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://invoice.vercel.app/</loc>
+    <loc>https://invoice-generator-pi-two.vercel.app/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
